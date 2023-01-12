@@ -1,0 +1,122 @@
+body {
+    font-family: 'Unbounded', cursive;
+    background-image: linear-gradient(135deg, #A18CD1, #ee96ee, #fbc2eb);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+br {
+    user-select: none;
+}
+
+h1 {
+    color: mintcream;
+    text-align: center;
+}
+
+#eingabe {
+    font-size: 25px;
+    color: mintcream;
+    text-align: center;
+}
+
+#werin {
+    width: 20em;
+    height: 2em;
+    font-size: 20px;
+    background-color: transparent;
+    color: mintcream;
+    text-align: center;
+    border-radius: 30px;
+    border: 1px solid mintcream;
+    outline: transparent;
+}
+
+.buttons-un {
+    display: none;
+}
+
+.buttons-si {
+    text-align: center;
+}
+
+button {
+    font-size: 1em;
+    height: 3em;
+    width: 8em;
+    margin-right: 10px;
+    margin-left: 15px;
+    background: transparent;
+    border-radius: 3em;
+    cursor: pointer;
+    border: 1px solid mintcream;
+}
+
+button:hover, button span:hover {
+    transition: 800ms ease-in-out;
+    background: mintcream;
+    stroke-dashoffset: -480;
+}
+
+button span {
+    color: #75e8ab;
+    font-size: 20px;
+}
+
+#infotext {
+    color: mintcream;
+    height: 0.6em;
+}
+
+#email {
+    color: mintcream;
+    height: 0.6em;
+}
+
+#email img {
+    height: 1em;
+}
+
+#github {
+    color: mintcream;
+    height: 0.6em;
+}
+
+#github img {
+    height: 1em;
+}
+
+.table-unsichtbar {
+    display: none;
+}
+
+.table-sichtbar {
+    display: table;
+    width: 40em;
+    border-radius: 30px 30px 1px 1px;
+    background: transparent;
+    margin: auto;
+    color: mintcream;
+}
+
+td {
+    border-radius: 30px 30px 30px 30px;
+    text-align: center;
+    color: mintcream;
+    background: grey;
+}
+
+#textunten, #github, #email {
+    text-align: center;
+    vertical-align: center;
+}
+.delbutton{
+    color: red;
+    user-select: none;
+    font-size: 1em;
+    height:2em;
+    width: 2em;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 1px solid mintcream;
+}
